@@ -1,17 +1,10 @@
-html, body {
-  width: 1200px;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   line-height: 1.71;
+
   background-color: #f5f5f5;  
-  overflow: auto;
+  
 }
 
 h1,
@@ -39,7 +32,7 @@ img {
 .main-container {
   display: flex;
   flex-direction: row-reverse;
-  max-width: 1200px;
+  width: 1200px;
   background-color: #fff;
   margin: 0;
   
@@ -87,7 +80,6 @@ img {
 }
 
 .about-me-description {
-  width: 400px;
   color: #595959;
   
 }
@@ -191,10 +183,10 @@ img {
 
 .sidebar-section {
   background-color: #1e2939;
-  width: 550px;
+  width: 1000px;
   margin-left: 50px;
   margin-top: 20px;
-  padding: 40px 0;
+  padding: 35px 0;
   border-top-left-radius: 200px;
   border-top-right-radius: 200px;
   box-shadow: 18px 17px 19px 5px rgba(0,0,0,0.55);
